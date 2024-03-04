@@ -10,6 +10,10 @@
 
 
 /* Begynd her... */
+body{
+    display: flex;
+    justify-content: center;
+}
 
 main{
     display: flex;
