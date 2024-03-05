@@ -13,4 +13,60 @@
 }
 
 
+
 /* Begynd her... */
+@layer reset {
+    *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+}
+
+.card{
+    display: flex;
+    justify-content: space-around;
+    /* width: var(--image-width); */
+    width: 50svh;
+    height: 22svh;
+    padding: var(--card-padding);
+    align-items: center;
+    background-color: #ffffff;
+    margin-left: 20px;
+}
+
+h1{
+    font-size: var(--font-heading);
+    font-weight: 700;
+    color: #0e0e0e;
+    display: inline;
+}
+
+h3{
+    color: rgb(2, 144, 97);
+    font-weight: 600;
+}
+
+.card_img{
+    width: var(--image-width);
+    object-fit: cover;
+    border-radius: 100px;
+    margin-right: 22px;
+}
+
+.icon_container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 20svh;
+}
+
+svg{
+    color: var(--color-icon);
+}
+
+.info_container{
+display: flex;
+flex-direction: column;
+margin-top: 16svh;
+}
+
