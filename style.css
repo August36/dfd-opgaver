@@ -28,7 +28,7 @@
     justify-content: space-around;
     /* width: var(--image-width); */
     width: 54svh;
-    height: 22svh;
+    height: 20svh;
     padding: var(--card-padding);
     align-items: center;
     background-color: #ffffff;
