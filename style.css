@@ -27,7 +27,7 @@
     display: flex;
     justify-content: space-around;
     /* width: var(--image-width); */
-    width: 50svh;
+    width: 54svh;
     height: 22svh;
     padding: var(--card-padding);
     align-items: center;
@@ -40,11 +40,13 @@ h1{
     font-weight: 700;
     color: #0e0e0e;
     display: inline;
+    white-space: nowrap;
 }
 
 h3{
     color: rgb(2, 144, 97);
     font-weight: 600;
+    margin-bottom: 5px;
 }
 
 .card_img{
