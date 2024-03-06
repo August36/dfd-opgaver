@@ -2,7 +2,9 @@
     --flow-space: 0.5rlh;
   }
   
-  article > * + * {
+  article > * + *,
+  h2,
+  h3 + * {
     margin-block-start: var(--flow-space);
   }
   
